@@ -1,0 +1,102 @@
+body{
+background-image: linear-gradient(black, red);
+background-repeat: no-repeat;
+
+}
+
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    animation: borderAnimation 5s infinite;   
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    margin: auto;
+height: 10%;
+}
+@keyframes borderAnimation {
+    0% {
+        border-color: rgb(255, 0, 0);
+    }
+    50% {
+        border-color: rgb(126, 19, 5);
+    }
+    100% {
+        border-color: rgb(0, 0, 0);
+    }
+
+}
+.p1{
+color: white;
+
+
+}
+.imglogo{
+margin: auto;
+text-align: center;
+
+}
+
+.p2{
+color: white;
+}
+
+.imgpr{
+    margin: auto;
+    text-align: center;
+}
+.social li a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+  
+    /* faz o indent no texto inserido */
+    color: transparent;
+    display: block;
+    text-indent: -9999px;  
+  }
+  
+  .social a[href*="facebook.com"] {
+    background-image: url(/imagem/facebook.png);
+  }
+  .insta{
+text-align: center;
+
+  }
+.white-text{
+text-align: center;
+color: white;
+}
+
+.h2{
+    text-align: center;
+    color: white;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+}
+.github{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
